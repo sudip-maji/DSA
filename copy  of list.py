@@ -1,0 +1,9 @@
+a=[1,2,3,4,5,6]
+x=[7,9]
+a.extend(x)
+b=a[:]
+c=a
+d=a.copy()
+print(b)
+print(c)
+print(d)
